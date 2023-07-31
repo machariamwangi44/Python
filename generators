@@ -1,0 +1,12 @@
+def generators(num):
+    for i in range(num):
+        yield i
+        
+g = generator_funvtion(10)
+next(g)
+next(g)
+next(g)
+next(g)
+print(next(g))
+
+
