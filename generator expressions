@@ -1,0 +1,8 @@
+import re
+
+pattern = re.compile(r'[A-Z a-z 0-9 %@#]{8,}')
+
+password = 'macharia7141M#'
+
+a=pattern.fullmatch( password)
+print(a)
